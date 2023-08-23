@@ -1,5 +1,7 @@
 #language pt
 
+@regression
+@search
 Funcionalidade: Busca
     COMO um usuario do Ecommerce AdvantageOnlineShopping
     QUERO poder buscar por diferentes produtos
@@ -7,11 +9,14 @@ Funcionalidade: Busca
 
     Contexto: Estar na home
         Dado que estaja na home
-# Utilizar contexto como boa pratica sempre que o "dado" se repetir
+        # Utilizar contexto como boa pratica sempre que o "dado" se repetir
+
+    @search_for_product
     Cenário: Buscar por um produto existente
         Quando realizar uma busca por um produto existente
         Então deverão ser retornados resulatados na busca
 
+    @search_for_different_products
     Esquema do Cenário: Buscar por produtos existente
         Quando buscar pelo produto "<produto>"
         Então deverão ser retornados resulatados na busca
