@@ -8,8 +8,8 @@ Então('deverá exibir o logo da Google') do
     expect(@google_home).to have_css '.lnXdpd'
 end
 
-Quando('buscar por {string}') do |termo|
-    @google_home.search_for(termo)
+Quando('buscar por {string}') do |query|
+    @google_home.search_for(query)
     @google_results = GoogleResults.new
 end
 
