@@ -17,18 +17,14 @@ Funcionalidade: Busca
         Então deverão ser retornados resultados na busca
 
     @search_for_different_products
-    Esquema do Cenário: Buscar por produtos existente
+    Esquema do Cenário: Buscar por produtos existentes
         Quando buscar pelo produto "<produto>"
-        Então deverão ser retornados resulatados na busca
+        Então deverão ser retornados resultados na busca
 
         Exemplos:
         | produto    |
         | Speakers   |
         | Tablets    |
-        | Lapstops   |
+        | Laptops    |
         | Mice       |
         | Headphones |
-# primeira execução = Speakers
-# segunda execução = Tablets
-# terceira execução = Laptops
-# ...
