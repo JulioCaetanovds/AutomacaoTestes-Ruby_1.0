@@ -33,11 +33,28 @@ bundle install
 
 ## :white_check_mark: Executando o Projeto
 
-Para executar os testes implementados vamos executar os seguintes comandos no terminal:
+Para executar todos os testes implementados vamos executar o seguinte comando no terminal:
 
 ```
+bundle exec cucumber -p default
+```
+
+Se você quiser executar algum teste especifico execute o seguinte comando no terminal:
 
 ```
+bundle exec cucumber -p default -t@TAG
+```
+As TAG's disponiveis para esse projeto são:
+* **@regression**
+  * **@search**
+    * **@search_for_product**
+    * **@search_for_different_products**
+  * **@pdp**
+    * **@change_color_pdp**
+    * **@increase_product_quantity**
+      * **@increase_product_quantity_only_pdp**
+      * **@increase_product_quantity_validate_cart**
+    * **@add_product_to_cart_pdp**
 
 ## Contato
 
