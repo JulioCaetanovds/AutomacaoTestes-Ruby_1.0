@@ -1,4 +1,4 @@
-# Projeto de Atutomação de Testes usando Cucumber e Capybara ![GitHub repo size](https://img.shields.io/github/repo-size/pedroomartinelli/PB_Sprint5)
+# Projeto de Automação de Testes usando Cucumber e Capybara
 
 ## Sobre o Projeto
 
