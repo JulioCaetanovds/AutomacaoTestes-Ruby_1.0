@@ -11,7 +11,6 @@ end
   
 Então('deverá alterar a imagem apresentada na PDP') do
     expect(@product_page.main_image['src']).not_to eql @image_before
-    binding.pry
 end
 
 Dado ('que esteja na página de um produto existente') do
