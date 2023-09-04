@@ -4,7 +4,7 @@
 
 Este projeto consiste na automação de alguns testes da página web do e-commerce: [AdvantageOnlineShopping](https://advantageonlineshopping.com/#/)
 
-# :desktop_computer: Tecnologias Utilizadas
+## :desktop_computer: Tecnologias Utilizadas
 
 * ```Visual Studio Code (1.81.1)```
 * ```ruby (2.5.3)```
@@ -16,14 +16,14 @@ Este projeto consiste na automação de alguns testes da página web do e-commer
 * ```selenium-webdriver (3.142.7)```
 * ```site_prism (3.7.3)```
 
-* # 💾 Pré-requisitos
+## 💾 Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado os seguintes pré-requisitos:
 
 - Ruby: [Instalação Ruby](https://www.ruby-lang.org/pt/documentation/installation/)
 - ChromeDriver: [Download ChromeDriver](https://sites.google.com/chromium.org/driver/)
 
-# :memo: Instalção do ambiente
+## :memo: Instalção do ambiente
 
 Para começar é preciso fazer a intalção do bundle de gem's, por meio do terminal de comando:
 
@@ -31,7 +31,7 @@ Para começar é preciso fazer a intalção do bundle de gem's, por meio do term
 bundle install
 ```
 
-# :white_check_mark: Executando o Projeto
+## :white_check_mark: Executando o Projeto
 
 Para executar os testes implementados vamos executar os seguintes comandos no terminal:
 
