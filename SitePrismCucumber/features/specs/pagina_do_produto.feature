@@ -15,14 +15,14 @@ Cenário: Trocar a cor do produto na PDP
     Quando alterar a cor do produto
     Então deverá alterar a imagem apresentada na PDP
 
-@incrase_product_quantity
-@incrase_product_quantity_only_pdp
+@increase_product_quantity
+@increase_product_quantity_only_pdp
 Cenário: Aumentar quantidade do produto na PDP
     Quando aumentar a quantidade do produto
     Então deverá alterar a quantidade exibida na PDP
 
-@incrase_product_quantity
-@incrase_product_quantity_validate_cart
+@increase_product_quantity
+@increase_product_quantity_validate_cart
 Cenário: Aumentar a quantidade do produto na PDP aumentar no carrinho
     Quando aumentar a quantidade do produto
     E adicionar o produto ao carrinho
